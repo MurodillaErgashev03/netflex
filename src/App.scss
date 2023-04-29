@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #141414;
+}
+
+.container {
+  max-width: 1480px;
+  padding: 0;
+  padding-left: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-list {
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-item-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #E5E5E5;
+}
+.header-item-list:hover{
+  font-weight: 700;
+  
+}
+
+.hero{
+  width:1460px ;
+  height: 810px;
+  background-image: url(../src/assets/images/backimg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-l-btn::after{
+  position: absolute;
+   width: 20px;
+   height: 21px;
+   content: '';
+   background-image: url(../src/assets/images/hero-l-btn.svg);
+   top: 23px;
+   left:35px ;
+   display: flex;
+}
+.hero-r-btn::after{
+  position: absolute;
+   width: 28px;
+   height: 27px;
+   content: '';
+   background-image: url(../src/assets/images/hero-r-btn.svg);
+   top: 20px;
+   left:220px ;
+   display: flex;
+}
+
+.SwiperSlide{
+  margin: 0 !important;
+  padding-right: 8px !important;
+  width: 285px !important;
+  height: 160px !important;
+}
+.BigSwiperSlide{
+  margin: 0 !important;
+  padding-right: 8px !important;
+  width: 285px !important;
+  height: 575px !important;
+}
+.single-text{
+  max-height: 80px;
+  overflow: hidden;
+}
